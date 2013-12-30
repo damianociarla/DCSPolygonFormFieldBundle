@@ -1,0 +1,9 @@
+parameters:
+    dcs_form_polygon_form_field.type.class: DCS\Form\PolygonFormFieldBundle\Form\Type\PolygonType
+
+services:
+    dcs_form_polygon_form_field.type:
+        class: %dcs_form_polygon_form_field.type.class%
+        arguments: [%form_polygon_form_field.parent%]
+        tags:
+            - { name: form.type, alias: polygon }

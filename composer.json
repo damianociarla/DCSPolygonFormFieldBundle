@@ -1,0 +1,26 @@
+{
+    "name": "damianociarla/polygon-form-field-bundle",
+    "description": "PolygonFormFieldBundle adds a new field type to convert a string '[longitude,latitude longitude,latitude n,n...]' in Polygon object and vice versa in Symfony2.",
+    "type": "library",
+    "keywords": [
+        "symfony2","polygon","latitude","longitude","field","form","data-transformer"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/damianociarla/DCSPolygonFormFieldBundle",
+    "authors": [
+        {
+            "name": "Damiano Ciarla",
+            "email": "damiano.ciarla@gmail.com",
+            "homepage": "http://www.damianociarla.it/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "symfony/symfony": "2.3.*",
+        "creof/doctrine2-spatial": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "DCS\\Form\\PolygonFormFieldBundle": "" }
+    },
+    "target-dir": "DCS/Form/PolygonFormFieldBundle"
+}
